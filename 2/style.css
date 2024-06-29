@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.product-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.thumbnail {
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.thumbnail.selected {
+    border-color: #007bff;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.brand {
+    color: #007bff;
+    font-size: 14px;
+    margin: 0;
+}
+
+.product-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.current-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.discount {
+    margin-left: 10px;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.original-price {
+    margin-left: 10px;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.size-options {
+    margin-bottom: 20px;
+}
+
+.size-options span {
+    font-size: 14px;
+    color: #666;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.size {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.size.selected {
+    border-color: #007bff;
+    background-color: #e7f1ff;
+}
+
+.add-to-bag {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-bag:hover {
+    background-color: #0056b3;
+}
