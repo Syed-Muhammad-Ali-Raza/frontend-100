@@ -1,0 +1,30 @@
+ul  {
+    list-style: none;
+     display:flex;
+    justify-content: space-between;
+    
+   gap: 20px;
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    gap: 20px;
+}
+
+.image-name{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+
+.imgclass{
+    border-radius: 50px;
+}
